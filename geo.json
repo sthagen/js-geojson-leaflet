@@ -1,0 +1,64 @@
+{
+  "type": "FeatureCollection",
+  "name": "test-points-link-labels",
+  "crs": {
+    "type": "name",
+    "properties": {
+      "name": "urn:ogc:def:crs:OGC:1.3:CRS84"
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "<a href='abc' target='_blank'>abc</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.065575,
+          60.712293
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "<a href='def' target='_blank'>def</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.074673,
+          60.719178
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "<a href='ghi' target='_blank'>ghi</a>"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.060596,
+          60.701164
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "name": "?"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -135.062742,
+          60.70843
+        ]
+      }
+    }
+  ]
+}
